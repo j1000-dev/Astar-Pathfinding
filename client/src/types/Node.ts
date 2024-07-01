@@ -1,4 +1,4 @@
-export type CellType = 'empty' | 'start' | 'end' | 'wall' | 'path';
+export type CellType = 'empty' | 'start' | 'end' | 'wall' | 'path' | 'visited';
 
 export interface Node {
     row: number;
