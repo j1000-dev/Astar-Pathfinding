@@ -1,0 +1,30 @@
+functionsDirectory = "/Users/jillvina/code/Astar-Pathfinding/netlify/functions"
+functionsDirectoryOrigin = "config-v1"
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/jillvina/code/Astar-Pathfinding/dist"
+publishOrigin = "config"
+command = "npm run build"
+commandOrigin = "config"
+functions = "/Users/jillvina/code/Astar-Pathfinding/netlify/functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
